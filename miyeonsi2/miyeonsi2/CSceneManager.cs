@@ -11,7 +11,7 @@ namespace miyeonsi2
         public SortedList<string, CScene> theScenes;
         public SortedList<string, int> theSelectedIndex;
         public CSceneManager()
-        {
+        {      
             theScenes = new SortedList<string, CScene>();
             theSelectedIndex = new SortedList<string, int>();
         }
@@ -23,6 +23,11 @@ namespace miyeonsi2
         public CScene GetCurrentScene()
         {
             return (theScenes[ theCurrentIndex ]);
+        }
+
+        public String GetCurrentSceneKey()
+        {
+            return (theScenes[theCurrentIndex]).ToString();
         }
         public void SelectChoice( string aIndex, int aSelectedIndex )
         {

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace miyeonsi2
 {
-    class C12Classroom : CScene
+    class C13Classroom : CScene
     {
-        public C12Classroom()
+        public C13Classroom()
         {
             AddScript( "..." );
             AddScript( "머리가 너무 아프다.." );
-            AddScript( "양호실에 좀 가야겠어." );
-            AddChoice( "1.(교실 밖으로 나간다.) ", "C14-1" );
+            AddScript( "양호실에 좀 가야겠어." );           
+            AddChoice( "1.(교실 밖으로 나간다.) ", "C14교실" );
         }
     }
 }

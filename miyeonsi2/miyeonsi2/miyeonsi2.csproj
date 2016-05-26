@@ -50,6 +50,7 @@
     <Compile Include="C04Classroom.cs" />
     <Compile Include="C05Classroom.cs" />
     <Compile Include="C06Classroom.cs" />
+    <Compile Include="C14Classroom.cs" />
     <Compile Include="C13Classroom.cs" />
     <Compile Include="C12Classroom.cs" />
     <Compile Include="C11Classroom.cs" />
